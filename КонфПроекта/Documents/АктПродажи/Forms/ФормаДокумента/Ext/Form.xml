@@ -112,6 +112,9 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="37"/>
+					<Events>
+						<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="ТоварыСумма" id="38">
 					<DataPath>Объект.Товары.Сумма</DataPath>
